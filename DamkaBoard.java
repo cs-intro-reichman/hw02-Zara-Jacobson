@@ -16,7 +16,7 @@ public class DamkaBoard {
             
             for (int j = 0; j < n; j++) {
                 
-                System.out.print((i + j) % 2 == 0 ? "* " : "  ");
+                System.out.print((i + j) % 2 == 0 ? "*" : "  ");
             }
             
             System.out.println();
