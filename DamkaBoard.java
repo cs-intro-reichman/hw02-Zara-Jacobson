@@ -4,23 +4,21 @@
 public class DamkaBoard {
     public static void main(String[] args) {
        
-        int x = Integer.parseInt(args[0]);
+        int n = Integer.parseInt(args[0]);
+        String outpuString = "";
 
-        String z = "*";
+        for (int i = 1; i <= n; i++) {
+          outpuString = "";
+          for (int j = 1; j <= n; j++) {
+          
+          if (i % 2 != 0) {
+          	outpuString = outpuString + "* ";
+          } else {
+          	outpuString = outpuString + " *";
+          }
 
-        for (int i = 1; i < x; i++) {
-          z = z + " *";
-           }
-
-            for (int j = 0; j < x; j++) {
-                if ((j%2) == 0) {
-                    System.out.print(z + " ");
-                } else {
-                    System.out.print("  " + z);
-                }
-
-                System.out.println();
-            }
-         
-        }
-    }
+          }
+          System.out.println(outpuString);
+         }
+     }
+ }
