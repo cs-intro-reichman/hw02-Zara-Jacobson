@@ -36,7 +36,7 @@ public class OneOfEachStats {
         	if (childCount == 2) {
         		familyOf2++;
         	} else if (childCount == 3 ) {
-        		familyOf3++
+        		familyOf3++;
         		} else {
         			familyOf4++;
         		}
