@@ -35,7 +35,7 @@ public class OneOfEachStats {
         	} while (!boy || !girl);
         	if (childCount == 2) {
         		familyOf2++;
-        	} else if (childCount ==3 ) {
+        	} else if (childCount == 3 ) {
         		} else {
         			familyOf4++;
         		}
